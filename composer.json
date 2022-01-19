@@ -1,0 +1,20 @@
+{
+    "name": "irontec/data-validator",
+    "description": "Multiple generic data validators for Symfony",
+    "type": "symfony-bundle",
+    "require": {
+        "symfony/symfony": "5.4"
+    },
+    "license": "GPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Irontec\\DataValidator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "José Miguel Sarasola",
+            "email": "jmsarasola@irontec.com"
+        }
+    ]
+}
